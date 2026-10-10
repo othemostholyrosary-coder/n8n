@@ -1,0 +1,10 @@
+name = "n8n-edge-proxy"
+main = "src/index.js"
+compatibility_date = "2026-10-10"
+
+[triggers]
+crons = ["*/10 * * * *"]
+
+[vars]
+# Set this to the public Hugging Face Space URL, e.g. https://owner-space.hf.space
+ORIGIN_URL = "https://replace-with-space.hf.space"
